@@ -138,19 +138,19 @@ public class SmartHomeTests
         Assert.False(smartHome.AreLightsOn);
     }
 
-    // [Fact]
-    // public void GetSystemStatus_ReturnsCorrectString()
-    // {
-    //     var smartHome = new SmartHome();
-    //     smartHome.ActivateSystem();
-    //     smartHome.AdjustTemperature(22.5m);
-    //     smartHome.ToggleLights();
+    [Fact]
+    public void GetSystemStatus_ReturnsCorrectString()
+    {
+        var smartHome = new SmartHome();
+        smartHome.ActivateSystem();
+        smartHome.AdjustTemperature(22.5m);
+        smartHome.ToggleLights();
 
-    //     string status = smartHome.GetSystemStatus();
+        string status = smartHome.GetSystemStatus();
 
-    //     Assert.Contains("System: Active", status);
-    //     Assert.Contains("Security: Disarmed", status);
-    //     Assert.Contains("Temp: 22.5", status); // Убрали °C из проверки
-    //     Assert.Contains("Lights: On", status);
-    // }
+        Assert.Contains("System: Active", status);
+        Assert.Contains("Security: Disarmed", status);
+        Assert.Contains("Temp: 22,5", status);
+        Assert.Contains("Lights: On", status);
+    }
 }
