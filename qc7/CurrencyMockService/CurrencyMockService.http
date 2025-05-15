@@ -1,0 +1,6 @@
+@CurrencyMockService_HostAddress = http://localhost:5139
+
+GET {{CurrencyMockService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

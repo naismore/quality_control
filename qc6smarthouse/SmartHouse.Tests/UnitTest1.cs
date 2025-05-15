@@ -150,7 +150,7 @@ public class SmartHomeTests
 
         Assert.Contains("System: Active", status);
         Assert.Contains("Security: Disarmed", status);
-        Assert.Contains("Temp: 22,5", status); 
+        Assert.Contains("Temp: 22,5", status);
         Assert.Contains("Lights: On", status);
     }
 }
