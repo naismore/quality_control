@@ -1,5 +1,4 @@
-﻿using Xunit;
-using SmartHomeSystem;
+﻿using SmartHomeSystem;
 
 public class SmartHomeTests
 {
