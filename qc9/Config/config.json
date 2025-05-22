@@ -1,0 +1,17 @@
+{
+    "baseUrl": "http://shop.qatl.ru/",
+    "correctUser": {
+        "login": "logintestpm",
+        "password": "passwordtestpm"
+    },
+    "incorrectUser": {
+        "login": "logintestpm1",
+        "password": "passwordtestpm1"
+    },
+    "product": {
+        "name": "Test product"
+    },
+    "order": {
+        "successMessage": "Спасибо за заказ"
+    }
+}
